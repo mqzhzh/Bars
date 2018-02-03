@@ -110,32 +110,40 @@ d3.csv("data.csv", type, function(error, data) {
   y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
     console.log(x)
     console.log(y)
-  svg.append("g")
-      .attr("class", "x axis")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis);
+  render(data)
 
-  svg.append("g")
-      .attr("class", "y axis")
-      .call(yAxis)
-    .append("text")
-      .attr("transform", "translate(80,0)")
-      .attr("y", 6)
-      .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text("Calorie Intake");
+  function render(){
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
 
-  svg.selectAll(".bar")
-      .data(data)
-    .enter().append("rect")
-      .attr("class", "bar")
-      .attr("x", function(d) { return x(d.letter); })
-      .attr("width", x.rangeBand())
-      .attr("y", function(d) { return y(d.frequency); })
-      .attr("height", function(d) { return height - y(d.frequency); })
-      //.on('mouseover', tip.show)
-      .on('mouseout', tip.hide)
-      .on("click", function(){d3.select(this).style("fill", "magenta");})
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis)
+      .append("text")
+        .attr("transform", "translate(80,0)")
+        .attr("y", 6)
+        .attr("dy", ".71em")
+        .style("text-anchor", "end")
+        .text("Calorie Intake");
+
+    svg.selectAll(".bar")
+        .data(data)
+      .enter().append("rect")
+        .attr("class", "bar")
+        .attr("x", function(d) { return x(d.letter); })
+        .attr("width", x.rangeBand())
+        .attr("y", function(d) { return y(d.frequency); })
+        .attr("height", function(d) { return height - y(d.frequency); })
+        //.on('mouseover', tip.show)
+        .on('mouseout', tip.hide)
+        .on("click", function(){d3.select(this)
+          .attr("flag", 1)
+          .style("fill", "magenta");})
+        .attr("flag",0)
+  }
+
 
 });
 
