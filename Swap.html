@@ -65,6 +65,7 @@ body {
 
 </style>
 <body>
+<script src="lodash.js"></script>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script>
@@ -105,13 +106,16 @@ var svg = d3.select("body").append("svg")
 
 svg.call(tip);
 
-d3.json("output.json", type, function(error, data) {
-  data.forEach(function(d) {
-        d.letter = +d.trial.data.index;
-        d.frequency = +d.trial.data.frequency;
-    });
-  x.domain(data.map(function(d) { return d.letter; }));
-  y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
+d3.json("output.json", function(error, data) {
+  // data.forEach(function(d) {
+  // d.letter = d.trial.dataSource.index;
+  // d.frequency = d.trial.dataSource.frequency;
+    // });
+ 
+  _.filter(data,  function(o) { return o.valuePosi == 0.25; });
+  console.log(data)
+  x.domain(data.map(function(d) { return d.trial.dataSource.index; }));
+  y.domain([0, d3.max(data, function(d) { d[0].trial.dataSource.frequency; })]);
     console.log(x)
     console.log(y)
   svg.append("g")
