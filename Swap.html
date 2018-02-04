@@ -76,8 +76,9 @@ var margin = {top: 40, right: 20, bottom: 30, left: 40},
 
 var formatPercent = d3.format(''); //".0%"
 
+
 var x = d3.scale.ordinal()
-    .rangeRoundBands([0, width], .1);
+   .rangeRoundBands([0, width], .1);
 
 var y = d3.scale.linear()
     .range([height, 0]);
@@ -95,7 +96,7 @@ var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "<strong>Frequency:</strong> <span style='color:red'>" + d.frequency + "</span>";
+    return "<strong>Frequency:</strong> <span style='color:red'>" + d.dataSource.frequency + "</span>";
   })
 
 var svg = d3.select("body").append("svg")
@@ -107,15 +108,12 @@ var svg = d3.select("body").append("svg")
 svg.call(tip);
 
 d3.json("output.json", function(error, data) {
-  // data.forEach(function(d) {
-  // d.letter = d.trial.dataSource.index;
-  // d.frequency = d.trial.dataSource.frequency;
-    // });
- 
-  _.filter(data,  function(o) { return o.valuePosi == 0.25; });
-  console.log(data)
-  x.domain(data.map(function(d) { return d.trial.dataSource.index; }));
-  y.domain([0, d3.max(data, function(d) { d[0].trial.dataSource.frequency; })]);
+  if (error) throw error;
+  var Data =_.filter(data,  function(o) { return o.valuePosi == 0.25; });
+  console.log(Data)
+  
+  x.domain(Data.map(function(d) { return  d.dataSource.index; }));
+  y.domain([0, d3.max(Data, function(d) { return d.dataSource.frequency; })]);
     console.log(x)
     console.log(y)
   svg.append("g")
@@ -131,17 +129,17 @@ d3.json("output.json", function(error, data) {
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Calorie Intake");
+      .text("Value");
 
   svg.selectAll(".bar")
-      .data(data)
+      .data(Data)
     .enter().append("rect")
       .attr("class", "bar")
-      .attr("x", function(d) { return x(d.letter); })
-      .attr("width", x.rangeBand())
-      .attr("y", function(d) { return y(d.frequency); })
-      .attr("height", function(d) { return height - y(d.frequency); })
-      //.on('mouseover', tip.show)
+      .attr("x", function(d) { return x(d.dataSource.index); })
+      .attr("width", x.rangeBand()) //
+      .attr("y", function(d) { return y(d.dataSource.frequency); })
+      .attr("height", function(d) { return height - y(d.dataSource.frequency); })
+      .on('mouseover', tip.show)
       .on('mouseout', tip.hide)
       .on("click", function(){d3.select(this)
         .attr("flag", 1)
@@ -150,12 +148,7 @@ d3.json("output.json", function(error, data) {
 });
 
 function type(d) {
-  d.frequency = +d.frequency;
-  return d;
-}
-
-function type(d) {
-  d.frequency = +d.frequency;
+  d.dataSource.frequency = +d.dataSource.frequency;
   return d;
 }
 
