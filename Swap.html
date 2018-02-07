@@ -14,7 +14,8 @@ body {
 }
 
 .bar {
-  fill: orange ; 
+  fill: white ;
+  stroke: #000;
 }
 
 .bar:hover {
@@ -96,7 +97,7 @@ var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "<strong>Frequency:</strong> <span style='color:red'>" + d.dataSource.frequency + "</span>";
+    return " <strong>"  +d.name +'\n'+ "Frequency:</strong> <span style='color:red'>" + d.frequency + "</span>";
   })
 
 var svg = d3.select("body").append("svg")
@@ -109,11 +110,13 @@ svg.call(tip);
 
 d3.json("output.json", function(error, data) {
   if (error) throw error;
-  var Data =_.filter(data,  function(o) { return o.valuePosi == 0.25; });
+  var Data = data
+  // var Data =_.filter(data,  function(value, key) { return value.valuePosi == 0.5; });
   console.log(Data)
-  
-  x.domain(Data.map(function(d) { return  d.dataSource.index; }));
-  y.domain([0, d3.max(Data, function(d) { return d.dataSource.frequency; })]);
+  var input = Data['0']["dataSource"]
+  console.log(input)
+  x.domain(input.map(function(d) { return  d.name; }));
+  y.domain([0, d3.max(input, function(d) { return d.frequency; })]);
     console.log(x)
     console.log(y)
   svg.append("g")
@@ -131,14 +134,16 @@ d3.json("output.json", function(error, data) {
       .style("text-anchor", "end")
       .text("Value");
 
+  // var allValues = _.map(Data.dataSource, function(val, key){ return value })
+  // console.log(allValues)
   svg.selectAll(".bar")
-      .data(Data)
+      .data(input)
     .enter().append("rect")
       .attr("class", "bar")
-      .attr("x", function(d) { return x(d.dataSource.index); })
+      .attr("x", function(d) { return x(d.name); })
       .attr("width", x.rangeBand()) //
-      .attr("y", function(d) { return y(d.dataSource.frequency); })
-      .attr("height", function(d) { return height - y(d.dataSource.frequency); })
+      .attr("y", function(d) {  return y(d.frequency); })
+      .attr("height", function(d) { return height - y(d.frequency); })
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide)
       .on("click", function(){d3.select(this)
@@ -148,7 +153,7 @@ d3.json("output.json", function(error, data) {
 });
 
 function type(d) {
-  d.dataSource.frequency = +d.dataSource.frequency;
+  d.frequency = +d.frequency;
   return d;
 }
 
