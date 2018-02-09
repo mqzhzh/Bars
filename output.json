@@ -1,1 +1,3842 @@
-{"0": {"trialNumber": 0, "barScale": 30, "chartPosi": 0, "dataSource": {"4": {"frequency": 802.6219, "index": 4}, "12": {"frequency": 1208.237, "index": 12}, "21": {"frequency": 1162.035, "index": 21}, "10": {"frequency": 1195.61, "index": 10}, "2": {"frequency": 880.6131, "index": 8}, "8": {"frequency": 798.843, "index": 2}, "9": {"frequency": 662.8053, "index": 9}, "5": {"frequency": 1078.389, "index": 5}, "22": {"frequency": 138.9768, "index": 22}, "11": {"frequency": 775.9346, "index": 11}, "19": {"frequency": 819.246, "index": 19}, "25": {"frequency": 452.4041, "index": 25}, "16": {"frequency": 995.1829, "index": 16}, "13": {"frequency": 909.9667, "index": 13}, "24": {"frequency": 1136.608, "index": 24}, "20": {"frequency": 1539.049, "index": 20}, "3": {"frequency": 900.2267, "index": 3}, "6": {"frequency": 1100.629, "index": 6}, "14": {"frequency": 367.5991, "index": 14}, "7": {"frequency": 1283.044, "index": 7}, "15": {"frequency": 1470.576, "index": 15}, "17": {"frequency": 1003.061, "index": 17}, "0": {"frequency": 694.9624, "index": 0}, "1": {"frequency": 844.4087, "index": 1}, "18": {"frequency": 1234.812, "index": 18}, "23": {"frequency": 576.4195, "index": 23}}, "valuePosi": 0.0, "localContrast": 0}, "1": {"trialNumber": 1, "barScale": 30, "chartPosi": 0, "dataSource": {"4": {"frequency": 802.6219, "index": 4}, "12": {"frequency": 1208.237, "index": 12}, "21": {"frequency": 1162.035, "index": 21}, "10": {"frequency": 1195.61, "index": 10}, "2": {"frequency": 880.6131, "index": 8}, "8": {"frequency": 798.843, "index": 2}, "9": {"frequency": 662.8053, "index": 9}, "5": {"frequency": 1078.389, "index": 5}, "22": {"frequency": 138.9768, "index": 22}, "11": {"frequency": 775.9346, "index": 11}, "19": {"frequency": 819.246, "index": 19}, "25": {"frequency": 452.4041, "index": 25}, "16": {"frequency": 995.1829, "index": 16}, "13": {"frequency": 909.9667, "index": 13}, "24": {"frequency": 1136.608, "index": 24}, "20": {"frequency": 1539.049, "index": 20}, "3": {"frequency": 900.2267, "index": 3}, "6": {"frequency": 1100.629, "index": 6}, "14": {"frequency": 367.5991, "index": 14}, "7": {"frequency": 1283.044, "index": 7}, "15": {"frequency": 1470.576, "index": 15}, "17": {"frequency": 1003.061, "index": 17}, "0": {"frequency": 694.9624, "index": 0}, "1": {"frequency": 844.4087, "index": 1}, "18": {"frequency": 1234.812, "index": 18}, "23": {"frequency": 576.4195, "index": 23}}, "valuePosi": 0.25, "localContrast": 0}, "2": {"trialNumber": 2, "barScale": 30, "chartPosi": 0, "dataSource": {"4": {"frequency": 802.6219, "index": 4}, "12": {"frequency": 1208.237, "index": 12}, "21": {"frequency": 1162.035, "index": 21}, "10": {"frequency": 1195.61, "index": 10}, "2": {"frequency": 880.6131, "index": 8}, "8": {"frequency": 798.843, "index": 2}, "9": {"frequency": 662.8053, "index": 9}, "5": {"frequency": 1078.389, "index": 5}, "22": {"frequency": 138.9768, "index": 22}, "11": {"frequency": 775.9346, "index": 11}, "19": {"frequency": 819.246, "index": 19}, "25": {"frequency": 452.4041, "index": 25}, "16": {"frequency": 995.1829, "index": 16}, "13": {"frequency": 909.9667, "index": 13}, "24": {"frequency": 1136.608, "index": 24}, "20": {"frequency": 1539.049, "index": 20}, "3": {"frequency": 900.2267, "index": 3}, "6": {"frequency": 1100.629, "index": 6}, "14": {"frequency": 367.5991, "index": 14}, "7": {"frequency": 1283.044, "index": 7}, "15": {"frequency": 1470.576, "index": 15}, "17": {"frequency": 1003.061, "index": 17}, "0": {"frequency": 694.9624, "index": 0}, "1": {"frequency": 844.4087, "index": 1}, "18": {"frequency": 1234.812, "index": 18}, "23": {"frequency": 576.4195, "index": 23}}, "valuePosi": 0.5, "localContrast": 0}}
+[
+    {
+        "contrast": 75,
+        "chartPosi": 0,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 0,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 0,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 0,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 0,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 0,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 0,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 0,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 0,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 0,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 0,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 0,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 2,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 2,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 2,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 2,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 2,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 2,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 2,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 2,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 2,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 2,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 2,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 2,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 5,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 5,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 5,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 5,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 5,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 5,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 5,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 5,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 5,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 5,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 5,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 5,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 7,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 7,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 7,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 7,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 7,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 7,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 7,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 7,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 7,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 7,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 7,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 7,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 9,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 9,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 9,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 9,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 9,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 9,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 2,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 9,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 75,
+        "chartPosi": 9,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 9,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 50,
+        "chartPosi": 9,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 9,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            }
+        ],
+        "highContrast": 0,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    },
+    {
+        "contrast": 25,
+        "chartPosi": 9,
+        "mean": 100,
+        "dataSource": [
+            {
+                "name": "0",
+                "frequency": 114.5222675,
+                "ifTarget": 0
+            },
+            {
+                "name": "1",
+                "frequency": 129.3744437,
+                "ifTarget": 0
+            },
+            {
+                "name": "2",
+                "frequency": 130.1468319,
+                "ifTarget": 0
+            },
+            {
+                "name": "5",
+                "frequency": 95.73604587,
+                "ifTarget": 0
+            },
+            {
+                "name": "6",
+                "frequency": 118.5434692,
+                "ifTarget": 0
+            },
+            {
+                "name": "7",
+                "frequency": 111.1547132,
+                "ifTarget": 0
+            },
+            {
+                "name": "8",
+                "frequency": 67.61011045,
+                "ifTarget": 0
+            },
+            {
+                "name": "9",
+                "frequency": 114.0347069,
+                "ifTarget": 0
+            },
+            {
+                "name": "4",
+                "frequency": 73.20164979,
+                "ifTarget": 0
+            },
+            {
+                "name": "3",
+                "frequency": 95.47207852,
+                "ifTarget": 1
+            }
+        ],
+        "highContrast": 1,
+        "isMinLevel": 0,
+        "localContrast": 1,
+        "SD": 20,
+        "barScale": 10,
+        "targetBar": 3,
+        "valuePosi": 25
+    }
+]
