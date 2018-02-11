@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: white ;
+  stroke: #000;
+}
+
+/* .bar:hover {
+  fill: orangered;
+} */
+
+.x.axis path {
+  display: none;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+#LLL {
+  fill: orangered;
+}
+
+
+#g1 {
+  fill: rgb(188, 188, 0);
+}
+
+</style>
+<body>
+    <div id="option">
+        <input name="updateButton" 
+               type="button" 
+               value="Update" 
+               onclick="updateData()" />
+    </div>
+<script src="lodash.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script>
+
+var margin = {top: 40, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+// bar 30: 960 500 {top: 40, right: 20, bottom: 30, left: 40},
+// bar 10: 360 500 {top: 40, right: 20, bottom: 30, left: 40},
+var formatPercent = d3.format(''); //".0%"
+
+
+var x = d3.scale.ordinal()
+   .rangeRoundBands([0, width], .1);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+
+    .orient("bottom");
+    
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .ticks(2)
+    ////// bar 30 tick(2)
+    .tickFormat(formatPercent);
+
+// var tip = d3.tip()
+//   .attr('class', 'd3-tip')
+//   .offset([-10, 0])
+//   .html(function(d) {
+//     return " <strong>"  +d.name +'\n'+ "Frequency:</strong> <span style='color:red'>" + d.frequency + "</span>";
+//   })
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + (margin.left) + "," + (margin.top ) + ")");
+
+// svg.call(tip);
+
+d3.json("output0211.json", function(error, data) {
+  if (error) throw error;
+  var Data = data
+
+  // var Data =_.filter(data,  function(value, key)    ///////////////input///////////////
+  // { return (value.targetBar == 7 && 
+  // value.chartPosi == 2 && value.contrast == 25
+  //    && value.localContrast == 2 ) }); /////value.isMinLevel == 1 && value.highContrast == 2
+  // console.log(Data)
+  var input = Data['0']["dataSource"]
+  console.log(input)
+  x.domain(input.map(function(d) { return  d.name; }));
+  y.domain([0, d3.max(input, function(d) { return d.frequency; })]);
+    console.log(x)
+    console.log(y)
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "translate(80,0)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("");
+
+  // var allValues = _.map(Data.dataSource, function(val, key){ return value })
+  // console.log(allValues)
+  svg.selectAll(".bar")
+      .data(input)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.name); })
+      .attr("width", x.rangeBand()) //
+      .attr("y", function(d) {  return y(d.frequency); })
+      .attr("height", function(d) { return height - y(d.frequency); })
+      // .on('mouseover', tip.show)
+      // .on('mouseout', tip.hide)
+      // .on("click", function(){d3.select(this)
+        // .attr("flag", 1)
+        // .style("fill", "orangered");})
+      // .attr("flag",0)
+
+      
+  svg.selectAll("circle")
+      .data(input)
+      .enter()
+      .append("circle")
+      .attr("cx", function (d, i) { return (x(d.name) + 0.5 * x.rangeBand())   })
+      .attr("cy", function (d) { return 420; })
+      .attr("r", function (d) { return 2 * d.ifTarget; })
+      .style("fill", "orangered");
+
+
+});
+
+function type(d) {
+  d.frequency = +d.frequency;
+  return d;
+}
+
+function updateData() {
+
+// Get the data again
+d3.csv("output0211.json", function(error, data) {
+  var input = data[]
+  });
+  x.domain(input.map(function(d) { return  d.name; }));
+  y.domain([0, d3.max(input, function(d) { return d.frequency; })]);
+
+// Select the section we want to apply our changes to
+var svg = d3.select("body").transition();
+
+// Make the changes
+    svg.select("width")   // change the line
+        // .duration(750)
+        .attr("d", 360);
+    // svg.select(".x.axis") // change the x axis
+    //     .duration(750)
+    //     .call(xAxis);
+    // svg.select(".y.axis") // change the y axis
+    //     .duration(750)
+    //     .call(yAxis);
+
+}
+
+</script>
